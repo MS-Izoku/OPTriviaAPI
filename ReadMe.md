@@ -25,12 +25,16 @@ If there are any missing package dependencies, install the following:
 ### RESTful
 A single API call is great, and that's used to display the inforamtion.  But that said, data is not typically static like that, it may need to be changed at some point, or even deleted.  While not a part of the frontend at the moment, this API is already prepared for such an action to take place upon request!
 
-With the current RESTful setup, we have 5 key routes for Trivia:
+With the current RESTful setup, we have 5 key RESTful routes for Trivia:
 * Index (Get)
 * Show (Get)
 * Create (Create)
 * Update (Patch)
 * Delete (Delete)
+
+However, I should note that for this current project, there are 2 in-use routes (accessible in the companion React UI)
+* Index
+* ShowRandom
 
 ## Models
 Since this is meant to be a simple API, there is only one model that we are using here, Trivia.
