@@ -99,4 +99,6 @@ The EFC is enabled in Program.Cs under the builder.services.AddDBContext method,
 
 
 ## I do hope you like what you see
-If you have any problems setting up this application, please let me know so I can help with any confusion.  This obviously works on my machine perfectly, but as with any technology, that may not be the case on yours.  I can't wait to talk to you guys again, your company rocks!  3D printing is the future.
+If you have any problems setting up this application, please let me know so I can help with any confusion.  This obviously works on my machine perfectly, but as with any technology, that may not be the case on yours. If there are any, it may be due to the lack of a proper gitignore for this project template (I did not see one on github).
+
+I can't wait to talk to you guys again, your company rocks!  3D printing is the future.
